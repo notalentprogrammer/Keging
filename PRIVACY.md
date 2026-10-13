@@ -1,6 +1,6 @@
 # 케깅 개인정보처리방침 / Keging Privacy Policy
 
-- 시행일 / Effective date / 施行日: 2026-09-05
+- 시행일 / Effective date / 施行日: 2026-09-05 (개정 / Revised / 改定: 2026-10-13)
 - 문의 / Contact / お問い合わせ: **songyc.eng@gmail.com**
 
 한국어 · [English](#english) · [日本語](#日本語)
@@ -27,12 +27,15 @@
 
 | 권한 | 용도 |
 |---|---|
-| 건강(HealthKit) — 쓰기 | 끝까지 마친 케겔 운동 세트를 사용자 본인의 건강 앱에 **운동**(운동 시간·유형, 선택한 경우 운동 강도, 추정 활성 에너지)으로 저장 |
-| 건강(HealthKit) — 읽기 (애플워치만) | 워치에서 운동하는 동안 **심박수와 활성 에너지**를 측정해 그 운동 기록에 포함. 그 외 건강 데이터는 읽지 않음 |
+| 건강(HealthKit) — 쓰기 | 끝까지 마친 케겔 운동 세트를 사용자 본인의 건강 앱에 **운동**(운동 시간·유형, 선택한 경우 운동 강도, 활성 에너지)으로 저장 |
+| 건강(HealthKit) — 읽기 | 애플워치를 차고 운동하는 동안(워치에서 시작했든, 아이폰에서 시작해 워치 앱이 자동으로 열렸든) 워치가 **심박수와 활성 에너지**를 측정해 그 운동 기록에 포함. 아이폰 앱은 운동 중 워치가 보내 주는 현재 심박수를 화면에 보여 줄 뿐 저장하지 않으며, 건강 앱의 데이터를 직접 조회하지 않음. 그 외 건강 데이터는 읽지 않음 |
+| 알림 | '완주 후 단축어' 또는 '국면마다 알림 배너' 기능을 켤 때만 요청. 화면이 꺼져 있거나 워치에서 완주했을 때 '실행' 버튼이 든 로컬 알림을 띄우고, 배너를 켠 경우 운동 중 수축·이완이 바뀔 때마다 기기 안에서 로컬 알림을 띄우는 용도이며, 리마인더나 마케팅 알림은 보내지 않음 |
 
-건강 데이터는 특히 엄격하게 다룹니다: 앱은 읽어 온 심박수·활성 에너지를 **해당 운동 기록에 담는 용도로만** 사용하며, 이를 **서버로 전송하지 않고 앱 밖으로 내보내지 않습니다.** 건강 데이터를 광고·마케팅 등 다른 목적에 사용하지 않습니다. 건강 기록을 원치 않으면 권한 요청을 거절하거나 건강 앱 → 공유 → 앱에서 케깅의 권한을 끄면 되며, 앱의 다른 기능은 그대로 사용할 수 있습니다.
+건강 데이터는 특히 엄격하게 다룹니다: 앱은 측정한 심박수·활성 에너지를 **해당 운동 기록에 담고 운동 중 화면에 표시하는 용도로만** 사용하며, 이를 **서버로 전송하지 않고 앱 밖으로 내보내지 않습니다.** 건강 데이터를 광고·마케팅 등 다른 목적에 사용하지 않습니다. 건강 기록을 원치 않으면 권한 요청을 거절하거나 건강 앱 → 공유 → 앱에서 케깅의 권한을 끄면 되며, 앱의 다른 기능은 그대로 사용할 수 있습니다.
 
 앱은 운동 중 화면이 꺼져 있어도 진동 안내와 실시간 현황(Live Activity)이 이어지도록 백그라운드 오디오 세션을 사용합니다. 이 세션은 소리를 녹음하지 않으며 마이크 권한도 사용하지 않습니다.
+
+홈 화면 위젯, 제어 센터 컨트롤, 애플워치 컴플리케이션은 기기 안에 저장된 기록과 세팅만 표시하며 네트워크를 사용하지 않습니다.
 
 ### 4. 제3자 제공·광고·추적: 없음
 
@@ -42,6 +45,7 @@
 
 - **기기 데이터**: 앱을 삭제하면 기기(아이폰·애플워치)에 저장된 모든 데이터가 함께 삭제됩니다.
 - **건강 앱 데이터**: 케깅이 저장한 운동 기록은 건강 앱에서 직접 삭제할 수 있습니다(건강 앱 → 둘러보기 → 활동 → 운동 → 해당 항목, 또는 프로파일 → 앱 → 케깅 → 앱의 모든 데이터 삭제).
+- **기록 삭제**: 앱의 통계에서 기록을 삭제하면 앱 안의 기록이 지워지고, 케깅이 저장한 같은 운동도 사용자의 건강 앱에서 함께 삭제됩니다(케깅이 저장한 항목만 삭제하며 다른 앱의 데이터는 건드리지 않음).
 
 ### 6. 아동의 개인정보
 
@@ -77,12 +81,15 @@ The app uses the permissions below **only if you grant them, and only for the st
 
 | Permission | Purpose |
 |---|---|
-| Health (HealthKit) — write | Saving each fully completed Kegel set to your own Health app as a **workout** (duration and type, the effort level if you chose one, and an estimated active energy value) |
-| Health (HealthKit) — read (Apple Watch only) | Measuring **heart rate and active energy** during a set on the watch so they can be included in that workout. No other health data is read |
+| Health (HealthKit) — write | Saving each fully completed Kegel set to your own Health app as a **workout** (duration and type, the effort level if you chose one, and active energy) |
+| Health (HealthKit) — read | While you exercise wearing an Apple Watch (whether you started on the watch or on iPhone, which opens the watch app automatically), the watch measures **heart rate and active energy** so they can be included in that workout. The iPhone app only displays the current heart rate the watch sends during the set; it does not store it and never queries data in the Health app. No other health data is read |
+| Notifications | Requested only when you turn on the "Shortcut After Set" or "Phase Banners" feature. Used solely to show a local notification with a "Run" button when a set is completed while the screen is off or on the watch, and, with banners on, a local notification at each squeeze and relax during a set — all generated on the device. No reminders, no marketing |
 
-Health data is handled with particular care: the app uses the heart rate and active energy it reads **only to include them in that workout record**, and **never sends them to a server or exports them outside the app.** Health data is never used for advertising, marketing, or any other purpose. If you prefer not to record to Health, decline the permission request or turn Keging off under Health app → Sharing → Apps; every other feature keeps working.
+Health data is handled with particular care: the app uses the measured heart rate and active energy **only to include them in that workout record and to show them on screen during the set**, and **never sends them to a server or exports them outside the app.** Health data is never used for advertising, marketing, or any other purpose. If you prefer not to record to Health, decline the permission request or turn Keging off under Health app → Sharing → Apps; every other feature keeps working.
 
 The app uses a background audio session so that haptic cues and the live status (Live Activity) continue while the screen is off during a set. This session does not record sound and the app does not use the microphone permission.
+
+Home Screen widgets, the Control Center control, and the Apple Watch complication display only records and settings stored on the device and never use the network.
 
 ### 4. Third parties, ads, tracking: none
 
@@ -92,6 +99,7 @@ The app contains no advertising SDKs, analytics SDKs, or tracking tools, and sha
 
 - **Device data**: deleting the app removes all data stored on the device (iPhone and Apple Watch).
 - **Health app data**: workouts saved by Keging can be deleted directly in the Health app (Browse → Activity → Workouts → the entry, or your profile → Apps → Keging → Delete All Data from Keging).
+- **Deleting a record**: deleting a record in the app's Statistics removes it from the app and also deletes the matching workout that Keging saved from your Health app (only Keging's own entries; other apps' data is never touched).
 
 ### 6. Children's privacy
 
@@ -127,12 +135,15 @@ Privacy inquiries: **songyc.eng@gmail.com**
 
 | 権限 | 用途 |
 |---|---|
-| ヘルスケア（HealthKit）— 書き込み | 最後まで終えたケーゲル体操のセットを、ご自身のヘルスケアアプリに**ワークアウト**（時間・種類、選択した場合は運動強度、推定アクティブエネルギー）として保存 |
-| ヘルスケア（HealthKit）— 読み取り（Apple Watchのみ） | ウォッチでのセット中に**心拍数とアクティブエネルギー**を計測し、そのワークアウト記録に含めるため。それ以外のヘルスケアデータは読み取りません |
+| ヘルスケア（HealthKit）— 書き込み | 最後まで終えたケーゲル体操のセットを、ご自身のヘルスケアアプリに**ワークアウト**（時間・種類、選択した場合は運動強度、アクティブエネルギー）として保存 |
+| ヘルスケア（HealthKit）— 読み取り | Apple Watchを着けて運動している間（ウォッチで開始した場合も、iPhoneで開始してウォッチアプリが自動で開いた場合も）、ウォッチが**心拍数とアクティブエネルギー**を計測し、そのワークアウト記録に含めるため。iPhoneアプリはセット中にウォッチから送られる現在の心拍数を表示するだけで、保存せず、ヘルスケアアプリのデータを直接照会することもありません。それ以外のヘルスケアデータは読み取りません |
+| 通知 | 「セット完了後のショートカット」または「段階ごとの通知バナー」機能をオンにしたときにのみ要求。画面が消えているときやウォッチでセットを終えたときに「実行」ボタン付きのローカル通知を表示し、バナーをオンにした場合はセット中に締める・ゆるめるが切り替わるたびに端末内でローカル通知を表示する用途に限り、リマインダーやマーケティングの通知は送りません |
 
-ヘルスケアデータはとくに厳格に扱います。本アプリは読み取った心拍数・アクティブエネルギーを**そのワークアウト記録に含める目的にのみ**使用し、**サーバーへ送信したり、アプリの外へ書き出したりすることはありません。** ヘルスケアデータを広告・マーケティングなど他の目的に使用することもありません。ヘルスケアへの記録を望まない場合は、権限の要求を拒否するか、ヘルスケアアプリ → 共有 → AppでKegingをオフにしてください。その他の機能はそのまま利用できます。
+ヘルスケアデータはとくに厳格に扱います。本アプリは計測した心拍数・アクティブエネルギーを**そのワークアウト記録に含め、セット中に画面に表示する目的にのみ**使用し、**サーバーへ送信したり、アプリの外へ書き出したりすることはありません。** ヘルスケアデータを広告・マーケティングなど他の目的に使用することもありません。ヘルスケアへの記録を望まない場合は、権限の要求を拒否するか、ヘルスケアアプリ → 共有 → AppでKegingをオフにしてください。その他の機能はそのまま利用できます。
 
 本アプリは、セット中に画面が消えていても振動ガイドとリアルタイム表示（ライブアクティビティ）が続くよう、バックグラウンドのオーディオセッションを使用します。このセッションは音声を録音せず、マイクの権限も使用しません。
+
+ホーム画面ウィジェット、コントロールセンターのコントロール、Apple Watchのコンプリケーションは、端末内に保存された記録と設定のみを表示し、ネットワークは使用しません。
 
 ### 4. 第三者提供・広告・トラッキング：なし
 
@@ -142,6 +153,7 @@ Privacy inquiries: **songyc.eng@gmail.com**
 
 - **端末のデータ**：アプリを削除すると、端末（iPhone・Apple Watch）に保存されたすべてのデータも削除されます。
 - **ヘルスケアアプリのデータ**：Kegingが保存したワークアウトは、ヘルスケアアプリで直接削除できます（ブラウズ → アクティビティ → ワークアウト → 該当項目、またはプロフィール → App → Keging → Kegingのすべてのデータを削除）。
+- **記録の削除**：アプリの統計で記録を削除すると、アプリ内の記録が消え、Kegingが保存した同じワークアウトもご自身のヘルスケアアプリから削除されます（Kegingが保存した項目のみで、他のアプリのデータには触れません）。
 
 ### 6. 子どもの個人情報
 
