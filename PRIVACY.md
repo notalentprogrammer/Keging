@@ -1,6 +1,6 @@
 # 케깅 개인정보처리방침 / Keging Privacy Policy
 
-- 시행일 / Effective date / 施行日: 2026-09-05 (개정 / Revised / 改定: 2026-10-13)
+- 시행일 / Effective date / 施行日: 2026-09-05 (개정 / Revised / 改定: 2026-11-02)
 - 문의 / Contact / お問い合わせ: **songyc.eng@gmail.com**
 
 한국어 · [English](#english) · [日本語](#日本語)
@@ -17,9 +17,9 @@
 
 사용자가 앱에서 만드는 모든 데이터 — 운동 세팅, 완주한 세트 기록, 앱 설정 — 는 **사용자의 기기 안**(아이폰과 애플워치의 앱 전용 저장 공간)에만 저장됩니다. 애플워치에서 마친 세트 기록은 Apple의 기기 간 통신(Watch Connectivity)을 통해 사용자의 아이폰으로만 전달되며, 그 과정에 개발자나 제3자의 서버는 관여하지 않습니다.
 
-### 2. 결제 정보: 없음
+### 2. 결제 정보: 다루지 않음
 
-앱은 완전 무료이며 광고, 구독, 앱 내 구입이 없습니다. 따라서 어떠한 결제 정보도 다루지 않습니다.
+앱의 모든 기능은 무료이며 광고와 구독이 없습니다. 개발자를 응원하기 위한 선택적 일회성 '응원(팁)' 앱 내 구입이 있으나, 결제는 전적으로 Apple의 App Store 결제 시스템이 처리하며 앱과 개발자는 카드 번호 등 어떠한 결제 정보도 받거나 저장하지 않습니다. 응원 구입으로 앱의 기능이 달라지지 않으며, 앱은 응원 횟수만 사용자 기기 안에 저장합니다.
 
 ### 3. 기기 권한의 사용
 
@@ -71,9 +71,9 @@ The app **does not collect any personal data.** There is no developer-operated s
 
 Everything the app creates — your workout setup, records of completed sets, and app settings — is stored **only on your devices** (the app's private storage on your iPhone and Apple Watch). Records of sets completed on the Apple Watch are delivered only to your own iPhone through Apple's device-to-device Watch Connectivity; no developer or third-party server is involved.
 
-### 2. Payments: none
+### 2. Payments: not handled by the app
 
-The app is completely free, with no ads, subscriptions, or in-app purchases. It therefore handles no payment information.
+Every feature of the app is free, and there are no ads or subscriptions. The app offers optional one-time "tip" in-app purchases to support the developer; these are processed entirely by Apple's App Store payment system, and neither the app nor the developer receives or stores any payment information such as card numbers. Tipping does not change any feature of the app; the app only stores the number of tips on your device.
 
 ### 3. Device permissions
 
@@ -125,9 +125,9 @@ Privacy inquiries: **songyc.eng@gmail.com**
 
 本アプリで作られるすべてのデータ — ワークアウト設定、完了したセットの記録、アプリ設定 — は、**ユーザーの端末内**（iPhoneとApple Watchのアプリ専用領域）にのみ保存されます。Apple Watchで完了したセットの記録は、Appleの端末間通信（Watch Connectivity）を通じてご自身のiPhoneにのみ届けられ、開発者や第三者のサーバーは関与しません。
 
-### 2. 決済情報：なし
+### 2. 決済情報：アプリでは扱いません
 
-本アプリは完全無料で、広告・サブスクリプション・アプリ内課金はありません。したがって決済情報を一切扱いません。
+本アプリのすべての機能は無料で、広告・サブスクリプションはありません。開発者を応援するための任意の一回限りの「応援（チップ）」アプリ内課金がありますが、決済はすべてAppleのApp Store決済システムが処理し、アプリおよび開発者はカード番号などの決済情報を一切受け取らず、保存もしません。応援の購入によってアプリの機能が変わることはなく、アプリは応援の回数のみを端末内に保存します。
 
 ### 3. 端末権限の使用
 
